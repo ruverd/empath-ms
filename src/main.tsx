@@ -1,10 +1,15 @@
+import { ThemeProvider } from "@/shared/contexts/theme.context";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./styles/global.css";
+import { RouterProvider } from "react-router-dom";
 
+import { router } from "./router";
+
+import "./styles/global.css";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider defaultTheme="dark">
+      <RouterProvider router={router} />
+    </ThemeProvider>
   </React.StrictMode>
 );

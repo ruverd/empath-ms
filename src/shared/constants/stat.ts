@@ -1,0 +1,4 @@
+export enum STAT_STATUS {
+  ACTIVE = "ACTIVE",
+  COMING_SOON = "COMING_SOON",
+}

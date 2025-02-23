@@ -1,0 +1,31 @@
+import "@testing-library/jest-dom";
+
+import { render, screen } from "@testing-library/react";
+import { describe, expect, it } from "vitest";
+
+import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
+
+const mockAvatarUrl = "https://github.com/ruverd.png";
+
+const renderComponent = ({ avatar }: { avatar?: string } = {}) => {
+  return render(
+    <Avatar>
+      {avatar && <AvatarImage src={avatar} alt="test user" />}
+      <AvatarFallback>TU</AvatarFallback>
+    </Avatar>
+  );
+};
+
+describe("Avatar", () => {
+  it("should render avatar without image", () => {
+    renderComponent();
+
+    expect(screen.getByText("TU")).toBeInTheDocument();
+  });
+
+  // it("should render avatar with image", () => {
+  //   renderComponent({ avatar: mockAvatarUrl })
+
+  //   expect(screen.getByRole("img")).toBeInTheDocument()
+  // })
+});
