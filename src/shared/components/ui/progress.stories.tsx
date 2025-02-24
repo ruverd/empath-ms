@@ -16,18 +16,21 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: {
     value: 50,
+    className: "w-[300px]",
   },
 };
 
 export const Empty: Story = {
   args: {
     value: 0,
+    className: "w-[300px]",
   },
 };
 
 export const Full: Story = {
   args: {
     value: 100,
+    className: "w-[300px]",
   },
 };
 
@@ -42,41 +45,5 @@ export const CustomStyles: Story = {
   args: {
     value: 60,
     className: "h-2 w-[200px]",
-  },
-};
-
-export const PrimaryTheme: Story = {
-  args: {
-    value: 60,
-    className: "bg-primary/20 [&>div]:bg-primary",
-  },
-};
-
-export const SecondaryTheme: Story = {
-  args: {
-    value: 70,
-    className: "bg-secondary/20 [&>div]:bg-secondary",
-  },
-};
-
-export const AccentTheme: Story = {
-  args: {
-    value: 80,
-    className: "bg-accent/20 [&>div]:bg-accent",
-  },
-};
-
-export const CustomGradient: Story = {
-  args: {
-    value: 90,
-    className:
-      "h-4 [&>div]:bg-[linear-gradient(90deg,_var(--color-primary-violet)_0%,_var(--color-secondary-aqua)_100%)]",
-  },
-};
-
-export const ShadesViolet: Story = {
-  args: {
-    value: 85,
-    className: "bg-shades-violet-2 [&>div]:bg-shades-violet-6",
   },
 };

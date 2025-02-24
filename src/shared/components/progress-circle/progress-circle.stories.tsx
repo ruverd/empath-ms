@@ -7,6 +7,13 @@ const meta = {
   parameters: {
     layout: "centered",
   },
+  decorators: [
+    (Story) => (
+      <div className="p-4 bg-shades-violet-1 rounded-lg">
+        <Story />
+      </div>
+    ),
+  ],
   tags: ["autodocs"],
 } satisfies Meta<typeof ProgressCircle>;
 
@@ -41,19 +48,6 @@ export const Full: Story = {
   args: {
     percentage: 100,
   },
-};
-
-export const CustomBackground: Story = {
-  args: {
-    percentage: 60,
-  },
-  decorators: [
-    (Story) => (
-      <div className="p-4 bg-shades-violet-1 rounded-lg">
-        <Story />
-      </div>
-    ),
-  ],
 };
 
 export const MultipleProgress: Story = {

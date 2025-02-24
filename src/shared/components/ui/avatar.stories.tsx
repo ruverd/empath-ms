@@ -44,9 +44,7 @@ export const WithCustomFallbackColor: Story = {
   render: () => (
     <Avatar>
       <AvatarImage src="/broken-image.jpg" alt="@shadcn" />
-      <AvatarFallback className="bg-primary text-primary-foreground">
-        CN
-      </AvatarFallback>
+      <AvatarFallback className="bg-black text-white">CN</AvatarFallback>
     </Avatar>
   ),
 };
