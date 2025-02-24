@@ -1,3 +1,4 @@
+/** this gradient cover container div but in figma file looks like something is overlaying it bg-gradient-overlay-dark */
 import { PieChart } from "lucide-react";
 import { useState } from "react";
 

@@ -87,9 +87,9 @@ export default {
         navbar: "0px 4px 20px 0px #0B00234D",
       },
       backgroundImage: {
-        "card-gradient":
+        "gradient-overlay-dark":
           "linear-gradient(180deg, rgba(17, 0, 55, 0.7) 0%, #2B1553 100%)",
-        "overlay-gradient":
+        "gradient-overlay-carrousel":
           "linear-gradient(180deg, rgba(17, 0, 55, 0.7) 0%, rgba(17, 0, 55, 0) 100%)",
       },
     },

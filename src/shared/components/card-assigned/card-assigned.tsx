@@ -21,7 +21,7 @@ export const CardAssigned = ({
   return (
     <Card
       className={cn(
-        "border border-primary-violet bg-card-gradient px-1.5 w-full py-2 flex flex-col rounded-2xl overflow-hidden",
+        "border border-primary-violet bg-gradient-overlay-carrousel px-1.5 w-full py-2 flex flex-col rounded-2xl overflow-hidden",
         isDark && "border-primary-violet"
       )}
     >
