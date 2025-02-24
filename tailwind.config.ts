@@ -84,7 +84,7 @@ export default {
         },
       },
       boxShadow: {
-        navbar: "0px 4px 20px 0px #0B00234D",
+        dark: "0px 4px 20px 0px #0B00234D",
       },
       backgroundImage: {
         "gradient-overlay-dark":

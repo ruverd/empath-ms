@@ -3,7 +3,7 @@
 exports[`Navbar > should match snapshot 1`] = `
 <div>
   <div
-    class="bg-background shadow-navbar px-6 h-[68px] flex items-center"
+    class="bg-background shadow-darkvbar px-6 h-[68px] flex items-center"
   >
     <div
       class="mx-auto flex justify-between items-center w-full"

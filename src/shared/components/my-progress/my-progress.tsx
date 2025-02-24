@@ -42,9 +42,8 @@ export const MyProgress = (props: MyProgressProps) => {
       {/* Mobile version */}
       <div className="lg:hidden">
         <Button
-          variant="default"
           size="lg"
-          className="fixed bottom-6 right-6 shadow-lg rounded-full gap-2 z-50"
+          className="fixed bottom-6 right-6 shadow-dark gap-2 z-50"
           onClick={() => setIsOpen(true)}
         >
           <PieChart className="size-5" />

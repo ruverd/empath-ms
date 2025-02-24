@@ -1,20 +1,28 @@
 import * as React from "react";
 
+import { useTheme } from "@/shared/hooks/use-theme";
 import { cn } from "@/shared/lib/utils";
 
 const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "rounded-lg border bg-card text-card-foreground shadow-sm",
-      className
-    )}
-    {...props}
-  />
-));
+>(({ className, ...props }, ref) => {
+  const { theme } = useTheme();
+
+  const isDark = theme === "dark";
+
+  return (
+    <div
+      ref={ref}
+      className={cn(
+        "rounded-2xl border bg-gradient-overlay-dark text-card-foreground",
+        isDark && "bg-gradient-overlay-carrousel shadow-dark",
+        className
+      )}
+      {...props}
+    />
+  );
+});
 Card.displayName = "Card";
 
 const CardHeader = React.forwardRef<
@@ -84,3 +92,4 @@ export {
   CardHeader,
   CardTitle,
 };
+

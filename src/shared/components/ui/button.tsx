@@ -9,12 +9,13 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90",
+        default:
+          "text-primary-indigo border border-secondary-aqua bg-secondary-aqua hover:text-secondary-aqua hover:bg-primary-indigo",
         outline:
-          "border border-secondary-aqua text-secondary-aqua bg-transparent hover:bg-secondary-aqua hover:text-primary-indigo",
+          "border border-secondary-aqua text-secondary-aqua bg-primary-indigo hover:bg-secondary-aqua hover:text-primary-indigo",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
+        ghost: "hover:bg-accent hover:text-primary-cloud",
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {

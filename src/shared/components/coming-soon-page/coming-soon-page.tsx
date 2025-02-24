@@ -7,7 +7,7 @@ interface ComingSoonPageProps {
 export const ComingSoonPage = ({ featureName }: ComingSoonPageProps) => {
   return (
     <div className="flex min-h-[calc(100vh-68px)] items-center justify-center p-6">
-      <div className="relative flex flex-col items-center justify-center p-8 border border-primary-violet rounded-2xl bg-gradient-to-b from-[rgba(17,0,55,0.7)] to-[#2B1553] max-w-lg w-full gap-6">
+      <div className="relative flex flex-col items-center justify-center p-8 border border-primary-violet rounded-2xl bg-gradient-overlay-dark max-w-lg w-full gap-6">
         <Badge variant="default" className="absolute -top-3">
           Coming Soon
         </Badge>
