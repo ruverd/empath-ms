@@ -2,7 +2,7 @@
 
 exports[`CardStats > should match snapshot 1`] = `
 <div
-  class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+  class="rounded-2xl text-card-foreground border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
 >
   <div
     class="flex flex-col space-y-1.5 p-0"

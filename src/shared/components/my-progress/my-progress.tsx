@@ -1,11 +1,11 @@
 /** this gradient cover container div but in figma file looks like something is overlaying it bg-gradient-overlay-dark */
-import { PieChart } from "lucide-react";
+import { PieChart, X } from "lucide-react";
 import { useState } from "react";
 
 import bgSpaceUrl from "@/assets/bg-space.png";
 
 import { Button } from "../ui/button";
-import { Sheet, SheetContent } from "../ui/sheet";
+import { Sheet, SheetClose, SheetContent } from "../ui/sheet";
 import { SectionBadges } from "./components/section-badges";
 import { SectionProgress } from "./components/section-progress";
 import { SectionStats } from "./components/section-stats";
@@ -53,9 +53,13 @@ export const MyProgress = (props: MyProgressProps) => {
         <Sheet open={isOpen} onOpenChange={setIsOpen}>
           <SheetContent
             side="right"
-            className="w-[358px] p-0 rounded-tl-2xl rounded-bl-2xl bg-accent overflow-hidden"
+            className="w-[358px] p-0 rounded-tl-2xl rounded-bl-2xl bg-accent overflow-hidden border-l-accent"
           >
             <MyProgressContent {...props} />
+            <SheetClose className="absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-secondary text-primary-cloud">
+              <X className="size-4" />
+              <span className="sr-only">Close</span>
+            </SheetClose>
           </SheetContent>
         </Sheet>
       </div>

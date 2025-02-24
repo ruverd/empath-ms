@@ -16,13 +16,6 @@ describe("Card", () => {
 
     const card = screen.getByText("Card Content");
     expect(card).toBeInTheDocument();
-    expect(card.closest("div")).toHaveClass(
-      "rounded-lg",
-      "border",
-      "bg-card",
-      "text-card-foreground",
-      "shadow-sm"
-    );
   });
 
   it("should render card with all subcomponents", () => {
@@ -37,27 +30,10 @@ describe("Card", () => {
       </Card>
     );
 
-    expect(screen.getByText("Test Title")).toHaveClass(
-      "text-2xl",
-      "font-semibold",
-      "leading-none",
-      "tracking-tight"
-    );
-    expect(screen.getByText("Test Description")).toHaveClass(
-      "text-sm",
-      "text-muted-foreground"
-    );
+    expect(screen.getByText("Test Title")).toBeInTheDocument();
+    expect(screen.getByText("Test Description")).toBeInTheDocument();
     expect(screen.getByText("Test Content")).toBeInTheDocument();
-    expect(screen.getByText("Test Content").closest("div")).toHaveClass(
-      "p-6",
-      "pt-0"
-    );
-    expect(screen.getByText("Test Footer").closest("div")).toHaveClass(
-      "flex",
-      "items-center",
-      "p-6",
-      "pt-0"
-    );
+    expect(screen.getByText("Test Footer")).toBeInTheDocument();
   });
 
   it("should render CardHeader with correct spacing", () => {

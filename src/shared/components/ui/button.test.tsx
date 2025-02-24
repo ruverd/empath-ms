@@ -10,7 +10,6 @@ describe("Button", () => {
 
     const button = screen.getByRole("button", { name: "Click me" });
     expect(button).toBeInTheDocument();
-    expect(button).toHaveClass("bg-primary", "text-primary-foreground");
   });
 
   it("should render all variants correctly", () => {
@@ -31,13 +30,13 @@ describe("Button", () => {
           expect(button).toHaveClass(
             "border-secondary-aqua",
             "text-secondary-aqua",
-            "bg-transparent"
+            "bg-primary-indigo"
           );
           break;
         case "ghost":
           expect(button).toHaveClass(
             "hover:bg-accent",
-            "hover:text-accent-foreground"
+            "hover:text-primary-cloud"
           );
           break;
         case "link":

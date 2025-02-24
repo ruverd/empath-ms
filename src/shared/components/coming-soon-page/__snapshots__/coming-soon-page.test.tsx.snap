@@ -6,7 +6,7 @@ exports[`ComingSoonPage > should match snapshot 1`] = `
     class="flex min-h-[calc(100vh-68px)] items-center justify-center p-6"
   >
     <div
-      class="relative flex flex-col items-center justify-center p-8 border border-primary-violet rounded-2xl bg-gradient-to-b from-[rgba(17,0,55,0.7)] to-[#2B1553] max-w-lg w-full gap-6"
+      class="relative flex flex-col items-center justify-center p-8 border border-primary-violet rounded-2xl bg-gradient-overlay-dark max-w-lg w-full gap-6"
     >
       <div
         class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3 absolute -top-3"
