@@ -1,17 +1,27 @@
 import { Link } from "react-router-dom";
 
 import { CardAssigned } from "@/shared/components/card-assigned";
+import { useTheme } from "@/shared/hooks/use-theme";
 import { MOCK_ASSIGNED_COURSES } from "@/shared/mocks/course.mock";
+
+import { cn } from "@/shared/lib/utils";
 import { MAP_TEXTS } from "./section-assigned.constants";
 
 export const SectionAssigned = () => {
+  const { theme } = useTheme();
+
+  const isDarkTheme = theme === "dark";
+
   return (
     <section className="flex flex-col gap-4">
       <header className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">{MAP_TEXTS.title}</h2>
         <Link
           to="/"
-          className="text-sm font-bold text-secondary-aqua hover:opacity-90"
+          className={cn(
+            "text-sm font-bold text-shades-violet-5 hover:opacity-90",
+            isDarkTheme && "text-secondary-aqua"
+          )}
         >
           {MAP_TEXTS.seeAll}
         </Link>

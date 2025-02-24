@@ -7,7 +7,7 @@ export const WelcomeMessage = ({ name }: WelcomeMessageProps) => {
       <span className="text-lg font-bold text-accent-foreground">
         {MAP_TEXTS.WELCOME_MESSAGE}
       </span>
-      <h3 className="text-2xl font-bold text-secondary-foreground max-w-[200px] truncate">
+      <h3 className="text-2xl font-bold text-primary-cloud max-w-[200px] truncate">
         {name}!
       </h3>
     </header>

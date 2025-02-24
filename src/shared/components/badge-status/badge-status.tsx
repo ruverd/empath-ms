@@ -1,9 +1,8 @@
 import { cva } from "class-variance-authority";
 
-import { cn } from "@/shared/lib/utils";
-
 import { STATUS } from "@/shared/constants/status";
 import { Status } from "@/shared/enums/status";
+import { cn } from "@/shared/lib/utils";
 
 import type { BadgeStatusProps } from "./badge-status.types";
 
@@ -22,7 +21,7 @@ export const BadgeStatus = ({ variant }: BadgeStatusProps) => {
   return (
     <div className="flex items-center gap-2">
       <div className={cn(badgeStatusVariants({ variant }))} />
-      <span className="text-xs font-medium text-secondary-foreground">
+      <span className="text-xs font-medium text-primary-cloud">
         {STATUS[variant!]}
       </span>
     </div>

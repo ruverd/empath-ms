@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Logo > matches dark theme snapshot 1`] = `
+<div>
+  <img
+    alt="Brand Logo"
+    src="dark-logo.svg"
+  />
+</div>
+`;
+
+exports[`Logo > matches light theme snapshot 1`] = `
+<div>
+  <img
+    alt="Brand Logo"
+    src="light-logo.svg"
+  />
+</div>
+`;

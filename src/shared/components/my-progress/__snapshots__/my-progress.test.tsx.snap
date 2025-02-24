@@ -1,0 +1,1057 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyProgress > should match desktop snapshot 1`] = `
+<div>
+  <aside
+    class="relative hidden lg:flex flex-col justify-between bg-accent min-w-[358px] rounded-tl-2xl rounded-bl-2xl overflow-hidden"
+  >
+    <div
+      class="flex flex-col h-full"
+    >
+      <div
+        class="p-6 flex-1 flex flex-col gap-4"
+      >
+        <header
+          class="flex flex-col items-center"
+        >
+          <span
+            class="text-lg font-bold text-accent-foreground"
+          >
+            Welcome back
+          </span>
+          <h3
+            class="text-2xl font-bold text-primary-cloud max-w-[200px] truncate"
+          >
+            Jason Momoa
+            !
+          </h3>
+        </header>
+        <section
+          class="flex flex-col gap-4"
+        >
+          <header
+            class="flex justify-between items-center border-b border-shades-violet-8 pb-4"
+          >
+            <h3
+              class="text-sm font-bold text-primary-cloud"
+            >
+              Progress
+            </h3>
+            <div
+              class="flex items-center gap-2"
+            >
+              <div
+                class="size-2 rounded-full bg-secondary-green"
+              />
+              <span
+                class="text-xs font-medium text-primary-cloud"
+              >
+                On Track
+              </span>
+            </div>
+          </header>
+          <div
+            class="flex flex-col gap-2 justify-between items-center"
+          >
+            <span
+              class="text-2xl font-bold text-shades-aqua-8"
+            >
+              50%
+            </span>
+            <div
+              aria-valuemax="100"
+              aria-valuemin="0"
+              class="relative h-4 w-full overflow-hidden rounded-full bg-shades-violet-2"
+              data-max="100"
+              data-state="indeterminate"
+              role="progressbar"
+            >
+              <div
+                class="h-full w-full flex-1 rounded-full transition-all"
+                data-max="100"
+                data-state="indeterminate"
+                style="width: 50%;"
+              />
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex flex-col gap-8"
+        >
+          <div
+            class="grid grid-cols-2 gap-4"
+          >
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.61146 12.0246V8.44987L6.87727 10.2688C7.37119 10.5439 7.93079 10.6886 8.50039 10.6886C9.06999 10.6886 9.62959 10.5439 10.1235 10.2688L13.3893 8.44987V12.0246C13.3894 12.0765 13.3789 12.1279 13.3585 12.1759C13.3381 12.2239 13.3082 12.2675 13.2703 12.3043L13.2687 12.3051L13.2671 12.3075L13.2614 12.3122L13.2427 12.3296L13.1775 12.3881C13.1205 12.437 13.0389 12.5042 12.9322 12.584C12.6395 12.8019 12.3285 12.9957 12.0025 13.1632C10.9241 13.7176 9.72099 14.0051 8.50039 13.9999C7.27966 14.0048 6.07667 13.7171 4.99829 13.1624C4.67251 12.9948 4.36179 12.8011 4.06939 12.5832C3.96189 12.5028 3.85805 12.4179 3.75813 12.3288L3.73939 12.3114C3.69955 12.2742 3.66773 12.2297 3.64577 12.1804C3.62381 12.1312 3.61215 12.0782 3.61146 12.0246ZM15.6293 6.29199L9.71773 9.58293C9.34726 9.7892 8.92759 9.8978 8.50039 9.8978C8.07319 9.8978 7.65346 9.7892 7.28306 9.58293L1.98181 6.63176V10.2949C1.98181 10.3997 1.93889 10.5001 1.86249 10.5742C1.78608 10.6483 1.68245 10.6899 1.57441 10.6899C1.46635 10.6899 1.36273 10.6483 1.28632 10.5742C1.20992 10.5001 1.16699 10.3997 1.16699 10.2949V5.94987C1.16695 5.87863 1.18677 5.80872 1.22435 5.74752C1.26193 5.68632 1.31588 5.63611 1.38048 5.6022L7.28306 2.31521C7.65339 2.10869 8.07319 2 8.50039 2C8.92759 2 9.34739 2.10869 9.71773 2.31521L15.6293 5.60694C15.6914 5.64157 15.743 5.69146 15.7789 5.7516C15.8148 5.81174 15.8337 5.87999 15.8337 5.94947C15.8337 6.01895 15.8148 6.0872 15.7789 6.14734C15.743 6.20748 15.6914 6.25737 15.6293 6.29199Z"
+                      fill="#ECEEF5"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Courses Completed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  1
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  /3
+                </span>
+              </div>
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M8.50033 15.3334C12.5504 15.3334 15.8337 12.0501 15.8337 8.00002C15.8337 3.94993 12.5504 0.666687 8.50033 0.666687C4.45024 0.666687 1.16699 3.94993 1.16699 8.00002C1.16699 12.0501 4.45024 15.3334 8.50033 15.3334ZM9.31539 3.72225H7.68579V8.82035L11.0743 11.3052L12.038 9.99109L9.31539 7.99455V3.72225Z"
+                      fill="#ECEEF5"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Lessons Completed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  17
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  /44
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative grid grid-cols-2 gap-4"
+          >
+            <div
+              class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3 absolute -top-4 left-1/2 -translate-x-1/2"
+            >
+              Coming soon
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#clip0_1_3729)"
+                    >
+                      <path
+                        d="M2.9 4.7C2.9 3.85131 3.23714 3.03737 3.83726 2.43726C4.43737 1.83714 5.25131 1.5 6.1 1.5C6.94869 1.5 7.7626 1.83714 8.36273 2.43726C8.96287 3.03737 9.3 3.85131 9.3 4.7C9.3 5.54869 8.96287 6.36263 8.36273 6.96273C7.7626 7.56287 6.94869 7.9 6.1 7.9C5.25131 7.9 4.43737 7.56287 3.83726 6.96273C3.23714 6.36263 2.9 5.54869 2.9 4.7ZM0.5 13.7575C0.5 11.295 2.495 9.1 4.9575 9.1H7.24253C9.705 9.1 11.7 11.295 11.7 13.7575C11.7 14.1675 11.3675 14.5 10.9575 14.5H1.2425C0.8325 14.5 0.5 14.1675 0.5 13.7575ZM15.7325 14.5H12.285C12.42 14.265 12.5 13.9925 12.5 13.7V13.5C12.5 11.9825 11.8225 10.42 10.755 9.505C10.815 9.50247 10.8725 9.5 10.9325 9.5H12.4675C14.695 9.5 16.5 11.505 16.5 13.7325C16.5 14.1575 16.155 14.5 15.7325 14.5ZM11.3 7.9C10.525 7.9 9.825 7.585 9.31747 7.07753C9.81 6.4125 10.1 5.59 10.1 4.7C10.1 4.03 9.935 3.3975 9.64253 2.8425C10.1075 2.5025 10.68 2.3 11.3 2.3C12.8475 2.3 14.1 3.5525 14.1 5.1C14.1 6.6475 12.8475 7.9 11.3 7.9Z"
+                        fill="#ECEEF5"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="clip0_1_3729"
+                      >
+                        <rect
+                          fill="white"
+                          height="16"
+                          transform="translate(0.5)"
+                          width="16"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Community
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  0
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  th
+                </span>
+              </div>
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 2.4V1H4.5V2.4H1V7.3C1 8.07 1.63 8.7 2.4 8.7H4.57C4.70803 9.37227 5.04025 9.9892 5.52551 10.4745C6.01078 10.9597 6.62775 11.292 7.3 11.43V12.956C5.2 13.278 4.2 15 4.2 15H11.8C11.8 15 10.8 13.278 8.7 12.956V11.43C9.37227 11.292 9.9892 10.9597 10.4745 10.4745C10.9597 9.9892 11.292 9.37227 11.43 8.7H13.6C14.37 8.7 15 8.07 15 7.3V2.4H11.5ZM2.4 7.3V3.8H4.5V7.3H2.4ZM13.6 7.3H11.5V3.8H13.6V7.3Z"
+                      fill="#ECEEF5"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Team Ranking
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  N/A
+                </strong>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex flex-col gap-4 mt-4"
+        >
+          <header
+            class="flex justify-between items-center border-b border-shades-violet-8 pb-4"
+          >
+            <h3
+              class="text-sm font-bold text-primary-cloud"
+            >
+              Badges
+            </h3>
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 16 17"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.00004 1.83331C4.32004 1.83331 1.33337 4.81998 1.33337 8.49998C1.33337 12.18 4.32004 15.1666 8.00004 15.1666C11.68 15.1666 14.6667 12.18 14.6667 8.49998C14.6667 4.81998 11.68 1.83331 8.00004 1.83331ZM8.66671 11.8333H7.33337V7.83331H8.66671V11.8333ZM8.66671 6.49998H7.33337V5.16665H8.66671V6.49998Z"
+                fill="#752AD3"
+              />
+            </svg>
+          </header>
+          <div
+            class="flex flex-col justify-center items-center"
+          >
+            <div
+              class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3"
+            >
+              Coming soon
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="size-[358px] bg-cover bg-center"
+        style="background-image: url(/src/assets/bg-space.png);"
+      />
+    </div>
+  </aside>
+  <div
+    class="lg:hidden"
+  >
+    <button
+      class="inline-flex items-center justify-center whitespace-nowrap text-sm font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 fixed bottom-6 right-6 shadow-lg rounded-full gap-2 z-50"
+    >
+      <svg
+        class="lucide lucide-chart-pie size-5"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"
+        />
+        <path
+          d="M21.21 15.89A10 10 0 1 1 8 2.83"
+        />
+      </svg>
+      <span>
+        My Progress
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MyProgress > should match mobile snapshot 1`] = `
+<div>
+  <aside
+    class="relative hidden lg:flex flex-col justify-between bg-accent min-w-[358px] rounded-tl-2xl rounded-bl-2xl overflow-hidden"
+  >
+    <div
+      class="flex flex-col h-full"
+    >
+      <div
+        class="p-6 flex-1 flex flex-col gap-4"
+      >
+        <header
+          class="flex flex-col items-center"
+        >
+          <span
+            class="text-lg font-bold text-accent-foreground"
+          >
+            Welcome back
+          </span>
+          <h3
+            class="text-2xl font-bold text-primary-cloud max-w-[200px] truncate"
+          >
+            Jason Momoa
+            !
+          </h3>
+        </header>
+        <section
+          class="flex flex-col gap-4"
+        >
+          <header
+            class="flex justify-between items-center border-b border-shades-violet-8 pb-4"
+          >
+            <h3
+              class="text-sm font-bold text-primary-cloud"
+            >
+              Progress
+            </h3>
+            <div
+              class="flex items-center gap-2"
+            >
+              <div
+                class="size-2 rounded-full bg-secondary-green"
+              />
+              <span
+                class="text-xs font-medium text-primary-cloud"
+              >
+                On Track
+              </span>
+            </div>
+          </header>
+          <div
+            class="flex flex-col gap-2 justify-between items-center"
+          >
+            <span
+              class="text-2xl font-bold text-shades-aqua-8"
+            >
+              50%
+            </span>
+            <div
+              aria-valuemax="100"
+              aria-valuemin="0"
+              class="relative h-4 w-full overflow-hidden rounded-full bg-shades-violet-2"
+              data-max="100"
+              data-state="indeterminate"
+              role="progressbar"
+            >
+              <div
+                class="h-full w-full flex-1 rounded-full transition-all"
+                data-max="100"
+                data-state="indeterminate"
+                style="width: 50%;"
+              />
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex flex-col gap-8"
+        >
+          <div
+            class="grid grid-cols-2 gap-4"
+          >
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.61146 12.0246V8.44987L6.87727 10.2688C7.37119 10.5439 7.93079 10.6886 8.50039 10.6886C9.06999 10.6886 9.62959 10.5439 10.1235 10.2688L13.3893 8.44987V12.0246C13.3894 12.0765 13.3789 12.1279 13.3585 12.1759C13.3381 12.2239 13.3082 12.2675 13.2703 12.3043L13.2687 12.3051L13.2671 12.3075L13.2614 12.3122L13.2427 12.3296L13.1775 12.3881C13.1205 12.437 13.0389 12.5042 12.9322 12.584C12.6395 12.8019 12.3285 12.9957 12.0025 13.1632C10.9241 13.7176 9.72099 14.0051 8.50039 13.9999C7.27966 14.0048 6.07667 13.7171 4.99829 13.1624C4.67251 12.9948 4.36179 12.8011 4.06939 12.5832C3.96189 12.5028 3.85805 12.4179 3.75813 12.3288L3.73939 12.3114C3.69955 12.2742 3.66773 12.2297 3.64577 12.1804C3.62381 12.1312 3.61215 12.0782 3.61146 12.0246ZM15.6293 6.29199L9.71773 9.58293C9.34726 9.7892 8.92759 9.8978 8.50039 9.8978C8.07319 9.8978 7.65346 9.7892 7.28306 9.58293L1.98181 6.63176V10.2949C1.98181 10.3997 1.93889 10.5001 1.86249 10.5742C1.78608 10.6483 1.68245 10.6899 1.57441 10.6899C1.46635 10.6899 1.36273 10.6483 1.28632 10.5742C1.20992 10.5001 1.16699 10.3997 1.16699 10.2949V5.94987C1.16695 5.87863 1.18677 5.80872 1.22435 5.74752C1.26193 5.68632 1.31588 5.63611 1.38048 5.6022L7.28306 2.31521C7.65339 2.10869 8.07319 2 8.50039 2C8.92759 2 9.34739 2.10869 9.71773 2.31521L15.6293 5.60694C15.6914 5.64157 15.743 5.69146 15.7789 5.7516C15.8148 5.81174 15.8337 5.87999 15.8337 5.94947C15.8337 6.01895 15.8148 6.0872 15.7789 6.14734C15.743 6.20748 15.6914 6.25737 15.6293 6.29199Z"
+                      fill="#ECEEF5"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Courses Completed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  1
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  /3
+                </span>
+              </div>
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M8.50033 15.3334C12.5504 15.3334 15.8337 12.0501 15.8337 8.00002C15.8337 3.94993 12.5504 0.666687 8.50033 0.666687C4.45024 0.666687 1.16699 3.94993 1.16699 8.00002C1.16699 12.0501 4.45024 15.3334 8.50033 15.3334ZM9.31539 3.72225H7.68579V8.82035L11.0743 11.3052L12.038 9.99109L9.31539 7.99455V3.72225Z"
+                      fill="#ECEEF5"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Lessons Completed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  17
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  /44
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative grid grid-cols-2 gap-4"
+          >
+            <div
+              class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3 absolute -top-4 left-1/2 -translate-x-1/2"
+            >
+              Coming soon
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#clip0_1_3729)"
+                    >
+                      <path
+                        d="M2.9 4.7C2.9 3.85131 3.23714 3.03737 3.83726 2.43726C4.43737 1.83714 5.25131 1.5 6.1 1.5C6.94869 1.5 7.7626 1.83714 8.36273 2.43726C8.96287 3.03737 9.3 3.85131 9.3 4.7C9.3 5.54869 8.96287 6.36263 8.36273 6.96273C7.7626 7.56287 6.94869 7.9 6.1 7.9C5.25131 7.9 4.43737 7.56287 3.83726 6.96273C3.23714 6.36263 2.9 5.54869 2.9 4.7ZM0.5 13.7575C0.5 11.295 2.495 9.1 4.9575 9.1H7.24253C9.705 9.1 11.7 11.295 11.7 13.7575C11.7 14.1675 11.3675 14.5 10.9575 14.5H1.2425C0.8325 14.5 0.5 14.1675 0.5 13.7575ZM15.7325 14.5H12.285C12.42 14.265 12.5 13.9925 12.5 13.7V13.5C12.5 11.9825 11.8225 10.42 10.755 9.505C10.815 9.50247 10.8725 9.5 10.9325 9.5H12.4675C14.695 9.5 16.5 11.505 16.5 13.7325C16.5 14.1575 16.155 14.5 15.7325 14.5ZM11.3 7.9C10.525 7.9 9.825 7.585 9.31747 7.07753C9.81 6.4125 10.1 5.59 10.1 4.7C10.1 4.03 9.935 3.3975 9.64253 2.8425C10.1075 2.5025 10.68 2.3 11.3 2.3C12.8475 2.3 14.1 3.5525 14.1 5.1C14.1 6.6475 12.8475 7.9 11.3 7.9Z"
+                        fill="#ECEEF5"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="clip0_1_3729"
+                      >
+                        <rect
+                          fill="white"
+                          height="16"
+                          transform="translate(0.5)"
+                          width="16"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Community
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  0
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  th
+                </span>
+              </div>
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 2.4V1H4.5V2.4H1V7.3C1 8.07 1.63 8.7 2.4 8.7H4.57C4.70803 9.37227 5.04025 9.9892 5.52551 10.4745C6.01078 10.9597 6.62775 11.292 7.3 11.43V12.956C5.2 13.278 4.2 15 4.2 15H11.8C11.8 15 10.8 13.278 8.7 12.956V11.43C9.37227 11.292 9.9892 10.9597 10.4745 10.4745C10.9597 9.9892 11.292 9.37227 11.43 8.7H13.6C14.37 8.7 15 8.07 15 7.3V2.4H11.5ZM2.4 7.3V3.8H4.5V7.3H2.4ZM13.6 7.3H11.5V3.8H13.6V7.3Z"
+                      fill="#ECEEF5"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Team Ranking
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  N/A
+                </strong>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex flex-col gap-4 mt-4"
+        >
+          <header
+            class="flex justify-between items-center border-b border-shades-violet-8 pb-4"
+          >
+            <h3
+              class="text-sm font-bold text-primary-cloud"
+            >
+              Badges
+            </h3>
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 16 17"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.00004 1.83331C4.32004 1.83331 1.33337 4.81998 1.33337 8.49998C1.33337 12.18 4.32004 15.1666 8.00004 15.1666C11.68 15.1666 14.6667 12.18 14.6667 8.49998C14.6667 4.81998 11.68 1.83331 8.00004 1.83331ZM8.66671 11.8333H7.33337V7.83331H8.66671V11.8333ZM8.66671 6.49998H7.33337V5.16665H8.66671V6.49998Z"
+                fill="#752AD3"
+              />
+            </svg>
+          </header>
+          <div
+            class="flex flex-col justify-center items-center"
+          >
+            <div
+              class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3"
+            >
+              Coming soon
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="size-[358px] bg-cover bg-center"
+        style="background-image: url(/src/assets/bg-space.png);"
+      />
+    </div>
+  </aside>
+  <div
+    class="lg:hidden"
+  >
+    <button
+      class="inline-flex items-center justify-center whitespace-nowrap text-sm font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 fixed bottom-6 right-6 shadow-lg rounded-full gap-2 z-50"
+    >
+      <svg
+        class="lucide lucide-chart-pie size-5"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"
+        />
+        <path
+          d="M21.21 15.89A10 10 0 1 1 8 2.83"
+        />
+      </svg>
+      <span>
+        My Progress
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`MyProgress > should match mobile snapshot with sheet open 1`] = `
+<div
+  aria-hidden="true"
+  data-aria-hidden="true"
+>
+  <aside
+    class="relative hidden lg:flex flex-col justify-between bg-accent min-w-[358px] rounded-tl-2xl rounded-bl-2xl overflow-hidden"
+  >
+    <div
+      class="flex flex-col h-full"
+    >
+      <div
+        class="p-6 flex-1 flex flex-col gap-4"
+      >
+        <header
+          class="flex flex-col items-center"
+        >
+          <span
+            class="text-lg font-bold text-accent-foreground"
+          >
+            Welcome back
+          </span>
+          <h3
+            class="text-2xl font-bold text-primary-cloud max-w-[200px] truncate"
+          >
+            Jason Momoa
+            !
+          </h3>
+        </header>
+        <section
+          class="flex flex-col gap-4"
+        >
+          <header
+            class="flex justify-between items-center border-b border-shades-violet-8 pb-4"
+          >
+            <h3
+              class="text-sm font-bold text-primary-cloud"
+            >
+              Progress
+            </h3>
+            <div
+              class="flex items-center gap-2"
+            >
+              <div
+                class="size-2 rounded-full bg-secondary-green"
+              />
+              <span
+                class="text-xs font-medium text-primary-cloud"
+              >
+                On Track
+              </span>
+            </div>
+          </header>
+          <div
+            class="flex flex-col gap-2 justify-between items-center"
+          >
+            <span
+              class="text-2xl font-bold text-shades-aqua-8"
+            >
+              50%
+            </span>
+            <div
+              aria-valuemax="100"
+              aria-valuemin="0"
+              class="relative h-4 w-full overflow-hidden rounded-full bg-shades-violet-2"
+              data-max="100"
+              data-state="indeterminate"
+              role="progressbar"
+            >
+              <div
+                class="h-full w-full flex-1 rounded-full transition-all"
+                data-max="100"
+                data-state="indeterminate"
+                style="width: 50%;"
+              />
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex flex-col gap-8"
+        >
+          <div
+            class="grid grid-cols-2 gap-4"
+          >
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.61146 12.0246V8.44987L6.87727 10.2688C7.37119 10.5439 7.93079 10.6886 8.50039 10.6886C9.06999 10.6886 9.62959 10.5439 10.1235 10.2688L13.3893 8.44987V12.0246C13.3894 12.0765 13.3789 12.1279 13.3585 12.1759C13.3381 12.2239 13.3082 12.2675 13.2703 12.3043L13.2687 12.3051L13.2671 12.3075L13.2614 12.3122L13.2427 12.3296L13.1775 12.3881C13.1205 12.437 13.0389 12.5042 12.9322 12.584C12.6395 12.8019 12.3285 12.9957 12.0025 13.1632C10.9241 13.7176 9.72099 14.0051 8.50039 13.9999C7.27966 14.0048 6.07667 13.7171 4.99829 13.1624C4.67251 12.9948 4.36179 12.8011 4.06939 12.5832C3.96189 12.5028 3.85805 12.4179 3.75813 12.3288L3.73939 12.3114C3.69955 12.2742 3.66773 12.2297 3.64577 12.1804C3.62381 12.1312 3.61215 12.0782 3.61146 12.0246ZM15.6293 6.29199L9.71773 9.58293C9.34726 9.7892 8.92759 9.8978 8.50039 9.8978C8.07319 9.8978 7.65346 9.7892 7.28306 9.58293L1.98181 6.63176V10.2949C1.98181 10.3997 1.93889 10.5001 1.86249 10.5742C1.78608 10.6483 1.68245 10.6899 1.57441 10.6899C1.46635 10.6899 1.36273 10.6483 1.28632 10.5742C1.20992 10.5001 1.16699 10.3997 1.16699 10.2949V5.94987C1.16695 5.87863 1.18677 5.80872 1.22435 5.74752C1.26193 5.68632 1.31588 5.63611 1.38048 5.6022L7.28306 2.31521C7.65339 2.10869 8.07319 2 8.50039 2C8.92759 2 9.34739 2.10869 9.71773 2.31521L15.6293 5.60694C15.6914 5.64157 15.743 5.69146 15.7789 5.7516C15.8148 5.81174 15.8337 5.87999 15.8337 5.94947C15.8337 6.01895 15.8148 6.0872 15.7789 6.14734C15.743 6.20748 15.6914 6.25737 15.6293 6.29199Z"
+                      fill="#ECEEF5"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Courses Completed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  1
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  /3
+                </span>
+              </div>
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      clip-rule="evenodd"
+                      d="M8.50033 15.3334C12.5504 15.3334 15.8337 12.0501 15.8337 8.00002C15.8337 3.94993 12.5504 0.666687 8.50033 0.666687C4.45024 0.666687 1.16699 3.94993 1.16699 8.00002C1.16699 12.0501 4.45024 15.3334 8.50033 15.3334ZM9.31539 3.72225H7.68579V8.82035L11.0743 11.3052L12.038 9.99109L9.31539 7.99455V3.72225Z"
+                      fill="#ECEEF5"
+                      fill-rule="evenodd"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Lessons Completed
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  17
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  /44
+                </span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="relative grid grid-cols-2 gap-4"
+          >
+            <div
+              class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3 absolute -top-4 left-1/2 -translate-x-1/2"
+            >
+              Coming soon
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 17 16"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g
+                      clip-path="url(#clip0_1_3729)"
+                    >
+                      <path
+                        d="M2.9 4.7C2.9 3.85131 3.23714 3.03737 3.83726 2.43726C4.43737 1.83714 5.25131 1.5 6.1 1.5C6.94869 1.5 7.7626 1.83714 8.36273 2.43726C8.96287 3.03737 9.3 3.85131 9.3 4.7C9.3 5.54869 8.96287 6.36263 8.36273 6.96273C7.7626 7.56287 6.94869 7.9 6.1 7.9C5.25131 7.9 4.43737 7.56287 3.83726 6.96273C3.23714 6.36263 2.9 5.54869 2.9 4.7ZM0.5 13.7575C0.5 11.295 2.495 9.1 4.9575 9.1H7.24253C9.705 9.1 11.7 11.295 11.7 13.7575C11.7 14.1675 11.3675 14.5 10.9575 14.5H1.2425C0.8325 14.5 0.5 14.1675 0.5 13.7575ZM15.7325 14.5H12.285C12.42 14.265 12.5 13.9925 12.5 13.7V13.5C12.5 11.9825 11.8225 10.42 10.755 9.505C10.815 9.50247 10.8725 9.5 10.9325 9.5H12.4675C14.695 9.5 16.5 11.505 16.5 13.7325C16.5 14.1575 16.155 14.5 15.7325 14.5ZM11.3 7.9C10.525 7.9 9.825 7.585 9.31747 7.07753C9.81 6.4125 10.1 5.59 10.1 4.7C10.1 4.03 9.935 3.3975 9.64253 2.8425C10.1075 2.5025 10.68 2.3 11.3 2.3C12.8475 2.3 14.1 3.5525 14.1 5.1C14.1 6.6475 12.8475 7.9 11.3 7.9Z"
+                        fill="#ECEEF5"
+                      />
+                    </g>
+                    <defs>
+                      <clippath
+                        id="clip0_1_3729"
+                      >
+                        <rect
+                          fill="white"
+                          height="16"
+                          transform="translate(0.5)"
+                          width="16"
+                        />
+                      </clippath>
+                    </defs>
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Community
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  0
+                </strong>
+                <span
+                  class="text-sm font-medium text-primary-cloud"
+                >
+                  th
+                </span>
+              </div>
+            </div>
+            <div
+              class="rounded-lg text-card-foreground shadow-sm border border-shades-violet-2 bg-transparent px-1.5 py-2 flex flex-col-reverse"
+            >
+              <div
+                class="flex flex-col space-y-1.5 p-0"
+              >
+                <div
+                  class="text-2xl font-semibold leading-none tracking-tight flex items-center gap-0.5 text-primary-cloud justify-center"
+                >
+                  <svg
+                    fill="none"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    width="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.5 2.4V1H4.5V2.4H1V7.3C1 8.07 1.63 8.7 2.4 8.7H4.57C4.70803 9.37227 5.04025 9.9892 5.52551 10.4745C6.01078 10.9597 6.62775 11.292 7.3 11.43V12.956C5.2 13.278 4.2 15 4.2 15H11.8C11.8 15 10.8 13.278 8.7 12.956V11.43C9.37227 11.292 9.9892 10.9597 10.4745 10.4745C10.9597 9.9892 11.292 9.37227 11.43 8.7H13.6C14.37 8.7 15 8.07 15 7.3V2.4H11.5ZM2.4 7.3V3.8H4.5V7.3H2.4ZM13.6 7.3H11.5V3.8H13.6V7.3Z"
+                      fill="#ECEEF5"
+                    />
+                  </svg>
+                  <span
+                    class="text-xs font-medium"
+                  >
+                    Team Ranking
+                  </span>
+                </div>
+              </div>
+              <div
+                class="p-0 flex flex-row items-center justify-center"
+              >
+                <strong
+                  class="font-bold text-lg text-shades-aqua-8"
+                >
+                  N/A
+                </strong>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="flex flex-col gap-4 mt-4"
+        >
+          <header
+            class="flex justify-between items-center border-b border-shades-violet-8 pb-4"
+          >
+            <h3
+              class="text-sm font-bold text-primary-cloud"
+            >
+              Badges
+            </h3>
+            <svg
+              fill="none"
+              height="17"
+              viewBox="0 0 16 17"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.00004 1.83331C4.32004 1.83331 1.33337 4.81998 1.33337 8.49998C1.33337 12.18 4.32004 15.1666 8.00004 15.1666C11.68 15.1666 14.6667 12.18 14.6667 8.49998C14.6667 4.81998 11.68 1.83331 8.00004 1.83331ZM8.66671 11.8333H7.33337V7.83331H8.66671V11.8333ZM8.66671 6.49998H7.33337V5.16665H8.66671V6.49998Z"
+                fill="#752AD3"
+              />
+            </svg>
+          </header>
+          <div
+            class="flex flex-col justify-center items-center"
+          >
+            <div
+              class="inline-flex items-center border-shades-violet-5 rounded-full border px-2.5 py-1 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-primary-cloud bg-shades-violet-3"
+            >
+              Coming soon
+            </div>
+          </div>
+        </section>
+      </div>
+      <div
+        class="size-[358px] bg-cover bg-center"
+        style="background-image: url(/src/assets/bg-space.png);"
+      />
+    </div>
+  </aside>
+  <div
+    class="lg:hidden"
+  >
+    <button
+      class="inline-flex items-center justify-center whitespace-nowrap text-sm font-bold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 fixed bottom-6 right-6 shadow-lg rounded-full gap-2 z-50"
+    >
+      <svg
+        class="lucide lucide-chart-pie size-5"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z"
+        />
+        <path
+          d="M21.21 15.89A10 10 0 1 1 8 2.83"
+        />
+      </svg>
+      <span>
+        My Progress
+      </span>
+    </button>
+  </div>
+</div>
+`;

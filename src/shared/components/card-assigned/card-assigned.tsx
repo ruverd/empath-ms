@@ -1,5 +1,6 @@
 import { Status } from "@/shared/enums/status";
-import { formatDate } from "@/shared/lib/utils";
+import { useTheme } from "@/shared/hooks/use-theme";
+import { cn, formatDate } from "@/shared/lib/utils";
 import { BadgeStatus } from "../badge-status";
 import { ProgressCircle } from "../progress-circle";
 import { Badge } from "../ui/badge";
@@ -14,13 +15,15 @@ export const CardAssigned = ({
   isOnTrack,
   dueDate,
 }: CardAssignedProps) => {
+  const { theme } = useTheme();
+  const isDark = theme === "dark";
+
   return (
     <Card
-      className="border border-primary-violet px-1.5 w-full py-2 flex flex-col rounded-2xl overflow-hidden"
-      style={{
-        background:
-          "linear-gradient(180deg, rgba(17, 0, 55, 0.7) 0%, #2B1553 100%)",
-      }}
+      className={cn(
+        "border border-primary-violet bg-card-gradient px-1.5 w-full py-2 flex flex-col rounded-2xl overflow-hidden",
+        isDark && "border-primary-violet"
+      )}
     >
       <CardHeader className="p-4 flex w-full flex-row items-start justify-between gap-2">
         <div className="flex items-start gap-2">
@@ -38,17 +41,22 @@ export const CardAssigned = ({
                       ? "default"
                       : "outline"
                   }
+                  className="text-primary-cloud"
                 >
                   {course.highlightTag.title}
                 </Badge>
               </div>
             )}
             {currentLesson && !course?.highlightTag && (
-              <span className="text-sm font-medium">{`Lesson ${currentLesson}`}</span>
+              <span className="text-sm font-medium text-primary-cloud">{`Lesson ${currentLesson}`}</span>
             )}
-            <h3 className="text-sm font-bold line-clamp-2">{course.title}</h3>
+            <h3 className="text-sm font-bold line-clamp-2 text-primary-cloud">
+              {course.title}
+            </h3>
             {dueDate && (
-              <span className="text-xs">{`Due: ${formatDate(dueDate)}`}</span>
+              <span className="text-xs text-primary-cloud">{`Due: ${formatDate(
+                dueDate
+              )}`}</span>
             )}
             {!!isOnTrack && <BadgeStatus variant={Status.ON_TRACK} />}
           </CardTitle>

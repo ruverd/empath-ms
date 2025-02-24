@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Sheet > should match snapshot with all subcomponents 1`] = `
+<button
+  aria-controls="radix-:rc:"
+  aria-expanded="false"
+  aria-haspopup="dialog"
+  data-state="closed"
+  type="button"
+>
+  Open Sheet
+</button>
+`;

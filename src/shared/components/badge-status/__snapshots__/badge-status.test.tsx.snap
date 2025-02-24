@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BadgeStatus > should match snapshot 1`] = `
+<div
+  class="flex items-center gap-2"
+>
+  <div
+    class="size-2 rounded-full bg-secondary-green"
+  />
+  <span
+    class="text-xs font-medium text-primary-cloud"
+  >
+    On Track
+  </span>
+</div>
+`;

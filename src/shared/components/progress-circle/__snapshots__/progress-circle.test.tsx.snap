@@ -1,0 +1,59 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProgressCircle > should match snapshot 1`] = `
+<div
+  class="relative inline-flex items-center justify-center"
+  style="width: 40px; height: 40px;"
+>
+  <svg
+    class="rotate-[-90deg]"
+    height="40"
+    width="40"
+  >
+    <defs>
+      <lineargradient
+        id="progressGradient"
+        x1="0%"
+        x2="0%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stop-color="#5C15A7"
+        />
+        <stop
+          offset="100%"
+          stop-color="#0098BD"
+        />
+      </lineargradient>
+    </defs>
+    <circle
+      cx="20"
+      cy="20"
+      fill="transparent"
+      r="18"
+      stroke="#2c004f"
+      stroke-width="4"
+    />
+    <circle
+      cx="20"
+      cy="20"
+      fill="transparent"
+      r="18"
+      stroke="url(#progressGradient)"
+      stroke-dasharray="113.09733552923255 113.09733552923255"
+      stroke-linecap="round"
+      stroke-width="4"
+      style="stroke-dashoffset: 56.548667764616276;"
+    />
+  </svg>
+  <span
+    class="absolute text-[#72e9ff] text-[10px] font-bold"
+    style="transform: translate(-50%, -50%); left: 50%; top: 50%;"
+  >
+    50
+    %
+  </span>
+</div>
+`;

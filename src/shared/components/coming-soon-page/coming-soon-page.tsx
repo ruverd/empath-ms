@@ -15,7 +15,7 @@ export const ComingSoonPage = ({ featureName }: ComingSoonPageProps) => {
           <h1 className="text-2xl font-bold text-shades-violet-8">
             {featureName}
           </h1>
-          <p className="text-base text-secondary-foreground">
+          <p className="text-base text-primary-cloud">
             We're working hard to bring you an amazing{" "}
             {featureName.toLowerCase()} experience. Stay tuned for exciting
             updates as we enhance our platform to serve you better!

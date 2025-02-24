@@ -17,6 +17,16 @@ const renderComponent = ({ avatar }: { avatar?: string } = {}) => {
 };
 
 describe("Avatar", () => {
+  it("should match snapshot without image", () => {
+    const { container } = renderComponent();
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
+  it("should match snapshot with image", () => {
+    const { container } = renderComponent({ avatar: mockAvatarUrl });
+    expect(container.firstChild).toMatchSnapshot();
+  });
+
   it("should render avatar without image", () => {
     renderComponent();
 
